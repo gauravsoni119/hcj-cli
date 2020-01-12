@@ -18,5 +18,9 @@ export function validateStyle(style) {
 }
 
 export function validateNewProject(options) {
+    if (options.new && !options.projectName) {
+        logError('Project name is required');
+        process.exit();
+    }
     return;
 }

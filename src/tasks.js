@@ -46,7 +46,7 @@ async function _updatePackageJson(options) {
     try {
         const filePath = path.resolve(options.targetDirectory, 'package.json');
         const packageFile = await readFile(filePath);
-        console.log(JSON.parse(packageFile), '-------');
+        // console.log(JSON.parse(packageFile), '-------');
     } catch(err) {
         console.log(err, 'while parsing package.json')
     } finally {
