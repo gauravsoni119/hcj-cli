@@ -1,0 +1,36 @@
+{
+  "name": "@hcj/cli",
+  "version": "1.0.0",
+  "description": "A cli tool to scaffold project with HTML, CSS, SCSS, Javascript and typescript",
+  "main": "src/cli.js",
+  "bin": {
+    "hcj": "bin/hcj"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "SCSS",
+    "Javascript",
+    "Typescript",
+    "cli",
+    "nodejs"
+  ],
+  "author": "Gaurav Soni",
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^4.1.2",
+    "chalk": "^3.0.0",
+    "esm": "^3.2.25",
+    "execa": "^4.0.0",
+    "inquirer": "^7.0.3",
+    "listr": "^0.14.3",
+    "ncp": "^2.0.0",
+    "pkg-install": "^1.0.0"
+  }
+}
