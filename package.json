@@ -49,7 +49,9 @@
     "prettier": "^1.19.1"
   },
   "husky": {
-    "pre-commit": "npm run lint && npm run format:check"
+    "hooks": {
+      "pre-commit": "npm run lint && npm run format:check"
+    }
   },
   "engines": {
     "node": ">=8.10.0"
